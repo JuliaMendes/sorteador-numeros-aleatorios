@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color:ghostwhite;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  font-size: 30px;
+  color: rgb(90, 86, 86);
+}
+
+p{
+  font-size: 18px;
+}
+
+input{
+  width: 55px;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid rgb(194, 192, 192);
+  font:inherit;
+  font-size: 15px;
+  text-align: center;
+}
+
+input:focus {
+  outline: 0;
+}
+
+textarea{
+  width:600px; 
+  height:200px;
+  font:inherit;
+  font-size: 40px;
+  color: rgb(6, 102, 167);
+  text-align: center;
+  margin-top: 40px;
+}
+
+button{
+  background-color: #689fe7;
+  color: #fff;
+  word-wrap: normal;
+  border: 0;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px 25px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 40px;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+button:focus {
+  outline: 0;
+}
